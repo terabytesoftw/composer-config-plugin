@@ -62,7 +62,7 @@ jobs:
         if: matrix.php == '8.0'
         run: composer update --ignore-platform-reqs --prefer-dist --no-interaction --no-progress --optimize-autoloader --ansi
 
-     - name: Turn off rebuilding
+      - name: Turn off rebuilding
         run: echo "name=REBUILD::0" >> $GITHUB_ENV
 
       - name: Run tests with phpunit
