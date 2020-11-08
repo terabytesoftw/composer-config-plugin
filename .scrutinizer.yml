@@ -11,7 +11,7 @@ build:
             environment:
                 php: 7.4.12
                 variables:
-                    name: 'REBUILD::0'
+                    REBUILD: 0
 
             tests:
                 override:
@@ -21,7 +21,7 @@ build:
             environment:
                 php: 7.4.12
                 variables:
-                    name: 'REBUILD::0'
+                    REBUILD: 0
 
             dependencies:
                 override:
@@ -41,7 +41,7 @@ build:
             environment:
                 php: 7.4.12
                 variables:
-                    name: 'REBUILD::1'
+                    REBUILD: 1
 
             dependencies:
                 override:
